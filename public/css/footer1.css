@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#afooter .wrap_ieg {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+div {
+    display: block;
+}
+#afooter {
+    background: #000000;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif;
+}
+#afooter a {
+    color: #6e6e6e;
+    font-size: 12px;
+}
+#afooter p {
+    color: #6e6e6e;
+    line-height: 24px;
+    font-size: 10px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

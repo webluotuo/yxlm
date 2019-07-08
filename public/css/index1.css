@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+.my_header,.my_footer{width:100%;}
+/*大屏幕下的iframe的高度*/
+.bgc {
+    background: url(../img/bgc.jpg) no-repeat;
+    width: 1000px;
+    height: 1002px;
+    margin: 0 auto;
+    position: relative;
+}
+div {
+    display: block;
+}
+html {
+    color: -internal-root-color;
+}
+.bg {
+    background: url(../img/bg.jpg) no-repeat 50% 0;
+}
+.bg {
+    position: relative;
+    min-width: 1000px;
+    overflow: hidden;
+    margin-top: -35px;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif;
+}
+.btn-div {
+    width: 742px;
+    height: 71px;
+    margin: 0 auto;
+    padding-top: 764px;
+    z-index: 5;
+    text-align: center;
+    -webkit-animation: fadeInUp .8s .8s both;
+    -moz-animation: fadeInUp .8s .8s both;
+    -ms-animation: fadeInUp .8s .8s both;
+    -o-animation: fadeInUp .8s .8s both;
+    animation: fadeInUp .8s .8s both;
+}
+.btn-div a.btn-1 {
+    background-position: 0 0;
+    margin-right: 40px;
+}
+.btn-div a {
+    display: block;
+    width: 220px;
+    height: 71px;
+    float: left;
+    background: url(../img/btn.png) no-repeat;
+    transition: all 0.3s;
+    position: relative;
+    z-index: 9999;
+}
+.btn-div {
+    width: 742px;
+    height: 71px;
+    margin: 0 auto;
+    padding-top: 764px;
+    z-index: 5;
+    text-align: center;
+    -webkit-animation: fadeInUp .8s .8s both;
+    -moz-animation: fadeInUp .8s .8s both;
+    -ms-animation: fadeInUp .8s .8s both;
+    -o-animation: fadeInUp .8s .8s both;
+    animation: fadeInUp .8s .8s both;
+}
+.btn-div a.btn-2 {
+    background-position: -260px 0;
+    margin-right: 40px;
+}
+.btn-div a.btn-3 {
+    background-position: -520px 0;
+}
+.topVideo {
+    width: 1920px;
+    height: 1002px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.dj-team {
+    width: 740px;
+    height: 123px;
+    background: url(../img/dj-team.png) no-repeat;
+    position: absolute;
+    top: 602px;
+    left: 50%;
+    margin-left: -368px;
+}
