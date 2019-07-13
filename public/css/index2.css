@@ -2,7 +2,7 @@ div {
     display: block;
 }
 body{
-    background-color: rgba(233, 217, 217, 0.767);
+    background-color:#eee;
 }
 .my_header{width:100%;
            height:360px;
@@ -30,4 +30,124 @@ body{
 #demo{
     width: 820px;
     height: 340px;
+}
+.tabs{
+    margin-left: 43px;
+}
+#tab li{
+	float: left; list-style: none;
+}
+#tab li a{
+  display:inline-block;
+  text-decoration:none;
+  width: 99px; height: 36px;
+  line-height: 42px;
+  text-align: center;
+  color:rgb(175, 165, 165);
+  font-size: 20px;
+  font-family: cursive;
+  font-weight: 300;
+}
+#tab li a:hover{
+    color: #0da0b4;
+    border-bottom: 1px  #0da0b4 solid;
+    background-color: rgba(203, 204, 204, 0.5);
+    font-size: 25px;
+}
+#container{
+	position: relative;
+}
+#content1,#content2,#content3,#content4,#content5{
+	width: 496px;
+	height: 300px;
+	position: absolute;
+	top: 24px;
+	left: 0;
+}
+#content5>ul{
+    width: 496px;
+	height: 300px;
+}
+#tab li,#content1,#content2,#content3,#content4,#content5{
+background-color :#eee;
+}
+.a1 {
+    list-style: none;
+    width: 496px;
+    height: 40px;
+    line-height: 39px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-top: 1px #e0e2e2 solid;
+    text-align: left;
+    font-size: 0;
+}
+span{ 
+        display: inline-block;
+        vertical-align: middle;
+        width: 45px;
+        height: 20px;
+        box-sizing: border-box;
+        font-size: 12px;
+        border: 1px #69c5d2 solid;
+        color: #1da6ba;
+        line-height: 18px;
+        text-align: center; 
+}
+.a2{
+    color: #bb9a6c;
+    border: 1px #c5ab86 solid;
+}
+.a3 {
+    color: #6388c5;
+    border: 1px #97afc5 solid;
+}
+.a4 {
+    color: #e9852d;
+    border: 1px #e9852d solid;
+}
+.a5{
+    color: #4ba36a;
+    border: 1px #4ba36a solid;
+}
+.a6{
+    color: #999e9b;
+    border:0;
+}
+.a7 {
+    list-style: none;
+    background-position: 0 -458px;
+    width: 496px;
+    height: 59px;
+    overflow: hidden;
+    line-height: 59px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    box-sizing: border-box;
+    padding: 0 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #0da0b4;
+}
+.a7:hover{
+    color: #e9852d;
+   
+}
+.a8 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 370px;
+    height: 39px;
+    overflow: hidden;
+    margin-left: 20px;
+    color: #424242;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.a8:hover{
+    color:#e9852d;
+    font-size: 16px;
 }
