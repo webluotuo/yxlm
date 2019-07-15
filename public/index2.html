@@ -156,7 +156,116 @@
                             }
                           })();
                           </script>
+                    <div class="m-act">
+                        <div class="part top tab">
+                          <div class="row">
+                          <div class="tiao"></div>
+                          <h2 class="part-h2-title">热门活动</h2>              
+                            <ul id="tab1">
+                                <li><a class="actzi" href="javascript:;" data-toggle="tab1" data-target="part1">正在进行</a></li>
+                                <li><a class="actzi" href="javascript:;" data-toggle="tab1" data-target="part2">商场特惠</a></li>
+                                <li><a class="actzi" href="javascript:;" data-toggle="tab1" data-target="part3">长期活动</a></li>
+                            </ul>
+                          </div>
+                          <div id="container">
+                              <div id="part1">
+                                <ul>
+                                  <li class="act-item">
+                                    <img src="img/lol_1562732302_uploadnewsImg.jpg" alt="图没啦" width:"193" height:"207">
+                                    <p>原创攻略征稿大赛</p>
+                                    <a href="javascript:;" class="overtime">21天后结束</a>
+                                  </li>
+                                  <li class="act-item">
+                                      <img src="img/lol_1562659552_uploadnewsImg.jpg" alt="图没啦" width:"193" height:"207">
+                                      <p>2019CMCC开报名</p>
+                                      <a href="javascript:;" class="overtime">11天后结束</a>
+                                  </li>
+                                  <li class="act-item">
+                                        <img src="img/lol_1562319322_uploadnewsImg.jpg" alt="图没啦" width:"193" height:"207">
+                                        <p>电玩内容征集开启</p>
+                                        <a href="javascript:;" class="overtime">14天后结束</a>
+                                  </li>
+                                  <li class="act-item">
+                                          <img src="img/lol_1561877693_uploadnewsImg.jpg" alt="图没啦" width:"193" height:"207">
+                                          <p>电玩2019门票</p>
+                                          <a href="javascript:;" class="overtime">14天后结束</a>
+                                  </li>
+                                </ul>
+                              </div>
+                              <div id="part2">
+                                  <ul>
+                                    <li class="act-item">
+                                      <img src="img/lol_1562901995_uploadnewsImg.jpg" alt="图没啦" width:"193" height:"207">
+                                      <p>泳池派对周边</p>
+                                      <a href="javascript:;" class="overtime">2天后结束</a>
+                                    </li>
+                                    <li class="act-item">
+                                        <img src="img/lol_1562899553_uploadnewsImg.jpg" alt="图没啦" width:"193" height:"207">
+                                        <p>每周限时优惠</p>
+                                        <a href="javascript:;" class="overtime">长期活动</a>
+                                    </li>
+                                    <li class="act-item">
+                                          <img src="img/banjia.jpg" alt="图没啦" width:"193" height:"207">
+                                          <p>每周限时优惠</p>
+                                          <a href="javascript:;" class="overtime">长期活动</a>
+                                    </li>
+                                    <li class="act-item">
+                                            <img src="img/lol_1561952969_uploadnewsImg.jpg" alt="图没啦" width:"193" height:"207">
+                                            <p>LPL耐克联名T恤</p>
+                                            <a href="javascript:;" class="overtime">长期活动</a>
+                                    </li>
+                                  </ul>
+                              </div>
+                              <div id="part3">
+                                    <ul>
+                                      <li class="act-item">
+                                        <img src="img/lol_1562654098_uploadnewsImg.jpg" alt="图没啦" width:"193" height:"207">
+                                        <p>终极连击,电玩一夏</p>
+                                        <a href="javascript:;" class="overtime">长期活动</a>
+                                      </li>
+                                      <li class="act-item">
+                                          <img src="img/lol_1562231204_uploadnewsImg.jpg" alt="图没啦" width:"193" height:"207">
+                                          <p>福来DAY</p>
+                                          <a href="javascript:;" class="overtime">长期活动</a>
+                                      </li>
+                                      <li class="act-item">
+                                            <img src="img/lol_1554279028_uploadnewsImg.jpg" alt="图没啦" width:"193" height:"207">
+                                            <p>《校园解说大赛》等你发声！</p>
+                                            <a href="javascript:;" class="overtime">长期活动</a>
+                                      </li>
+                                      <li class="act-item">
+                                              <img src="img/lol_1539328710_uploadnewsImg.jpg" alt="图没啦" width:"193" height:"207">
+                                              <p>高校自发赛</p>
+                                              <a href="javascript:;" class="overtime">长期活动</a>
+                                      </li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>      
             </div>
+            <script>
+                (function(){
+                  //DOM 4步:
+                  //1. 查找触发事件的元素
+                  var as1=document.querySelectorAll(
+                    "#tab1>li>[data-toggle=tab1]"
+                  );
+                  //2. 绑定事件处理函数
+                  var i=10;//累积zIndex
+                  for(var a of as1){
+                    a.onclick=function(){
+                      //3. 查找要修改的元素
+                      //获得保存在a上的自定义扩展属性data-target中的id名
+                      var id=this.getAttribute("data-target");
+                          //this.dataset.target;
+                      var div=
+                        document.getElementById(id);
+                      //4. 修改元素
+                      div.style.zIndex=i++;
+                    } 
+                  }
+                })();
+                </script>
             <!--part 2-->
             
          </div>          
