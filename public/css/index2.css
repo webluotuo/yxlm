@@ -235,3 +235,106 @@ span{
     position: absolute;
    margin-top: 26px
 }
+.m-gamefunc-nav {
+    width: 496px;
+    height: 335px;
+    float: right;
+    margin-top: 60px;
+    position: relative;
+    margin-left: 60px;
+}
+.m-gamefunc-nav .p1{
+    margin-left: 12px;
+    width:118px; 
+    height:76px; 
+    background-color: rgb(19, 180, 180);
+    border-radius: 4%;
+}
+.m-gamefunc-nav .p2 {
+    margin: 17px 0 0 12px;
+    width:118px; 
+    height:76px; 
+    background-color: rgb(19, 180, 180);
+    border-radius: 4%;
+}
+.m-gamefunc-nav .p1:hover,.m-gamefunc-nav .p2:hover{
+    background-color: rgb(81, 209, 209);
+}
+.slide-nav-ul>li {
+    float: left;
+    list-style: none;
+}
+.btn-flashmen {
+    float: left;
+    background-position: -193px -316px;
+    width: 118px;
+    height: 76px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 76px;
+    overflow: hidden;
+    position: relative;
+}
+.xinshoubibei,.lingquzhongxin{
+    color: #fff;   
+    float: left;
+    background-position: -193px -316px;
+    width: 118px;
+    height: 76px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 76px;
+    filter: brightness(1);
+    -webkit-filter: brightness(1);
+    font-family: cursive;
+}
+.xinshoubibei:hover,.lingquzhongxin:hover{
+    font-size: 16px;
+    text-decoration:none;
+    color: #fff;
+}
+.m-gamefunc-nav .p3 {
+    margin: 15px 16px 0 0;
+    width: 112px;
+    height: 68px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4%;
+}
+.m-gamefunc-nav .p4 {
+    margin-top: 15px;
+    width: 112px;
+    height: 68px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4%;
+}
+.m-gamefunc-nav .p4:hover,.m-gamefunc-nav .p3:hover{
+    width: 112px;
+    height: 68px;
+    text-align: center;
+    margin-top:10px;
+    background-color:rgb(19, 180, 180);
+    border-radius: 4%;
+}
+.kefu{
+    color: rgb(133, 135, 138);   
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    width: 112px;
+    height: 68px;
+    line-height: 68px;
+    font-family: cursive;
+}
+.kefu:hover{
+    color: rgb(250, 250, 250);   
+    font-size: 18px;
+    text-align: center;
+    text-decoration:none;
+    font-weight: 500;
+    font-family: cursive;
+}
