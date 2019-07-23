@@ -227,7 +227,10 @@ span{
     -webkit-transform: translateY(0);
     transform: translateY(0);
     background-color: #fefefe;
-    margin-right: 8px;
+    margin-right: 16px;
+}
+.act-item:hover{
+    top: -7px;
 }
 #part1,#part2,#part3{
     width: 840px;
@@ -348,4 +351,124 @@ span{
     text-decoration:none;
     font-weight: 500;
     font-family: cursive;
+}
+.m-newchampionskin {
+    float: left;
+    width: 820px;
+    height: 254px;
+    margin-top: 51px;
+}
+.m-new-champion-one, .m-new-skin-one {
+    float: left;
+    position: relative;
+    width: 402px;
+    height: 254px;
+    background-color: #f7f6f6;
+    box-shadow:5px 5px 10px rgb(66, 63, 63);
+}
+.m-new-champion-one:hover, .m-new-skin-one:hover {
+   top: -20px;
+}
+.m-new-skin-one {
+    margin-left: 16px;
+}
+.tip-championskin {
+    position: absolute;
+    display: block;
+    left: 9px;
+    top: 9px;
+    width: auto;
+    height: 20px;
+    padding: 0 6px;
+    border-radius: 2px;
+    font-size: 12px;
+    text-align: center;
+    color: #cdbe91;
+    line-height: 19px;
+    background-color: #000;
+}
+.pic-mask-0 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url(//ossweb-img.qq.com/images/lol/v3/pic-mask-0.png) repeat;
+    width: 100%;
+    height: 133px;
+}
+.intro-championskin {
+    width: 100%;
+    padding: 0 17px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 33px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #cdbe91;
+}
+.name-championskin {
+    width: 100%;
+    padding-left: 17px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    bottom: 12px;
+    font-size: 14px;
+}
+.name-championskin>a {
+    color: #cfcfcf;
+}
+a {
+    text-decoration: none;
+}
+.m-version-nav {
+    width: 496px;
+    height: 255px;
+    position: relative;
+    padding-top: 51px;
+    margin-left: 42px;
+}
+.new-model, .new-version {
+    background-color: #f7f6f6;
+    position: relative;
+    float: left;
+    width: 240px;
+    height: 120px;
+    overflow: visible;
+    margin-bottom: 15px;
+}
+.club-developer {
+    float: right;
+    width: 242px;
+    height: 180px;
+    position: relative;
+    background-color: #f7f6f6;
+}
+.week-free-champion {
+    float: right;
+    width: 239px;
+    height: 58px;
+    overflow: visible;
+    position: relative;
+    margin-top: 17px;
+}
+.week-free-a {
+    display: block;
+    background-position: -193px -253px;
+    background-color: rgb(241, 221, 165);
+    width: 239px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    -webkit-transition: filter .5s;
+    transition: filter .5s;
+    filter: brightness(1);
+    -webkit-filter: brightness(1);
+}
+.week-free-a:hover{
+    background-color: rgb(247, 217, 136);
+    color: #fff;
+    text-decoration: none;
 }
