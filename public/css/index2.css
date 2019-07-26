@@ -366,9 +366,12 @@ span{
     background-color: #f7f6f6;
     box-shadow:5px 5px 10px rgb(66, 63, 63);
 }
-.m-new-champion-one:hover, .m-new-skin-one:hover {
-   top: -20px;
+.m-new-champion-one:hover div{
+    display: block;
 }
+.m-new-champion-one:hover,.m-new-skin-one:hover {
+    top: -20px;
+ }
 .m-new-skin-one {
     margin-left: 16px;
 }
@@ -391,7 +394,6 @@ span{
     position: absolute;
     bottom: 0;
     left: 0;
-    background: url(//ossweb-img.qq.com/images/lol/v3/pic-mask-0.png) repeat;
     width: 100%;
     height: 133px;
 }
@@ -404,7 +406,7 @@ span{
     bottom: 33px;
     font-size: 16px;
     font-weight: 700;
-    color: #cdbe91;
+    color: #e0ded6;
 }
 .name-championskin {
     width: 100%;
@@ -416,7 +418,7 @@ span{
     font-size: 14px;
 }
 .name-championskin>a {
-    color: #cfcfcf;
+    color: #f3efef;
 }
 a {
     text-decoration: none;
@@ -437,6 +439,15 @@ a {
     overflow: visible;
     margin-bottom: 15px;
 }
+.new-model .sbt{
+  width: 240px;
+  height: 120px;
+  margin-top: -120px;
+  display: none;
+}
+.new-model:hover .sbt{
+  display:block;
+}
 .club-developer {
     float: right;
     width: 242px;
@@ -455,7 +466,7 @@ a {
 .week-free-a {
     display: block;
     background-position: -193px -253px;
-    background-color: rgb(241, 221, 165);
+    background-color: rgb(240, 202, 99);
     width: 239px;
     height: 58px;
     line-height: 58px;
@@ -471,4 +482,90 @@ a {
     background-color: rgb(247, 217, 136);
     color: #fff;
     text-decoration: none;
+}
+.m-new-champion-one>.inner-hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 402px;
+    height: 254px;
+    overflow: hidden;
+    background: url(../img/dark70-bg-repeat.png) repeat;
+    display: none;
+    z-index: 11;
+}
+.m-new-champion-one .inner-hover>.p1 {
+    color: #cdbe91;
+    font-size: 18px;
+    position: absolute;
+    left: 27px;
+    top: 20px;
+}
+.champion-ability {
+    width: 450px;
+    height: auto;
+    overflow: hidden;
+    padding-left: 27px;
+    box-sizing: border-box;
+    margin-top: 58px;
+}
+.m-new-champion-one .inner-hover>.border {
+    display: block;
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    background-position: 0 0;
+    width: 396px;
+    height: 248px;
+}
+.champion-ability>li {
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    width: 175px;
+    height: 30px;
+    line-height: 30px;
+    list-style: none;
+    float: left;
+    margin: 0 32px 9px 0;
+}
+.champion-hard-bar {
+    display: inline-block;
+    vertical-align: middle;
+    *zoom: 1;
+    *display: inline;
+    overflow: hidden;
+    width: 111px;
+    height: 4px;
+    text-align: left;
+    font-size: 0;
+}
+.champion-hard-bar>i {
+    float: left;
+    width: 34px;
+    height: 4px;
+    background-color: #6c6c6c;
+    margin-right: 3px;
+}
+.champion-hard-bar>.i1 ,.champion-hard-bar>.i2{
+    background-color: #fff;
+}
+.champion-power-bar {
+    display: inline-block;
+    vertical-align: middle;
+    *zoom: 1;
+    *display: inline;
+    width: 80px;
+    height: 4px;
+    background-color: #6c6c6c;
+    position: relative;
+}
+.champion-power-bar>i {
+    display: block;
+    position: absolute;
+    height: 4px;
+    left: 0;
+    top: 0;
+    width: 50%;
+    background-color: #fff;
 }
